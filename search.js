@@ -9,9 +9,9 @@ module.exports = {
             output: process.stdout
         });
 
-        rl.question('Type what would you like to watch: ', function(answer) {
+        rl.question('Type what would you like to watch: ', function(qry) {
             var search = youtube.search.list({
-                q: answer,
+                q: qry,
                 part: 'snippet',
                 maxResults: 5
             }, function(err, res) {
