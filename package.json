@@ -1,11 +1,9 @@
 {
   "name": "youtube_searcher",
   "version": "1.0.0",
-  "description": "A youtube searcher for learning purpose",
+  "description": "A YouTube searcher for NodeJS learning purpose",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "Marcelo Augusto",
   "license": "ISC",
   "dependencies": {
