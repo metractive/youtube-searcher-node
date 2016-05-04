@@ -1,7 +1,7 @@
 # YouTube Searcher (NodeJS)
 This repository was created for NodeJS testing purpose, from basics to something advanced in the end.
 
-Clone the respository and install the dependencies:
+Clone the repository and install the dependencies:
 
 ```javascript
 npm install
