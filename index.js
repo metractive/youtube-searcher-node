@@ -2,10 +2,12 @@
 var auth = require("./auth.js");
 var search = require("./search.js");
 
-// Initialize authentication
-auth.initialize();
+console.log('-------------------------------');
+console.log('Welcome to YouTube Searcher');
+console.log('-------------------------------');
 
-if (auth.yt) {
-    // Show the YouTube search
-    search.wrt(auth.yt);
-}
+// Authenticate Credentials
+var yt = auth.authenticate();
+
+// Search it on YouTube
+if (yt) search.wrt(yt);
