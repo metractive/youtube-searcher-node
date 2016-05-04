@@ -7,7 +7,7 @@ Clone the respository and install the dependencies:
 npm install
 ```
 
-After that, execute the temporary command below:
+At this point, generate an YouTube Data API Key on [Google Developer Console](https://console.developers.google.com/apis), put it on auth.js and execute:
 
 ```javascript
 node index.js
