@@ -14,4 +14,4 @@ node index.js
 ```
 
 It will ask what you would like to search on YouTube and result the last 5 results.<br />
-Choose one of the results writing the number in console and the choosen link will open.
+Choose one of the results writing the number in console and the chosen link will open.
