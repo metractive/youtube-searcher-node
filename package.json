@@ -1,0 +1,18 @@
+{
+  "name": "youtube_searcher",
+  "version": "1.0.0",
+  "description": "A youtube searcher for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Augusto",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^5.2.1",
+    "http": "0.0.0",
+    "open": "0.0.5",
+    "prompt": "^1.0.0",
+    "readline": "^1.3.0"
+  }
+}
