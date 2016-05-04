@@ -5,7 +5,7 @@ var fs = require('fs'),
 
 module.exports = {
     scopes: ['https://www.googleapis.com/auth/youtube'],
-    CREDENTIALS: {API_KEY: "AIzaSyAiBTCEbILidJSaYmMd5rDSdsG-bgjBpPk"},
+    CREDENTIALS: {API_KEY: null},
     yt: null,
 
     initialize: function() {
@@ -16,6 +16,8 @@ module.exports = {
 
         if (!this.CREDENTIALS.API_KEY) {
             console.log("Please, set your API Key on auth.js");
+            console.log("You can generate it here:");
+            console.log("https://console.developers.google.com/apis (YouTube Data API)");
             return false;
         }
 
