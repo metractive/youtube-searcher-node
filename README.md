@@ -13,4 +13,4 @@ After that, execute the temporary command below:
 node index.js
 ```
 
-It will ask you what you would like to search on YouTube and result the last 5 results.
+It will ask what you would like to search on YouTube and result the last 5 results.
