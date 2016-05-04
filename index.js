@@ -1,12 +1,11 @@
+// Require modules
 var auth = require("./auth.js");
+var search = require("./search.js");
 
 // Initialize authentication
 auth.initialize();
 
-
-
-// var search = yt.search.list({
-//     q: 'Lover of the light',
-//     part: 'snippet'
-// });
-// console.log(auth.googleApiClientReady());
+if (auth.yt) {
+    // Show the YouTube search
+    search.wrt(auth.yt);
+}

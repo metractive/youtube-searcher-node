@@ -4,6 +4,10 @@
   "description": "A YouTube searcher for NodeJS learning purpose",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:metractive/youtube-searcher-node.git"
+  },
   "author": "Marcelo Augusto",
   "license": "ISC",
   "dependencies": {
